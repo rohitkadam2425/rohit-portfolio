@@ -12,10 +12,10 @@ function SkillsSection() {
   return (
     <Zoom>
     <div className='mt-5 ml-5 mr-5'>
-      <h2 className='text-3xl font-black font-monospace text-gray-300 mb-4'>My Skills</h2>
+      <h2 className='text-3xl font-black font-cursive text-gray-300 mb-4'>My Skills</h2>
       <hr></hr>
       <h4 className='mb-4 font-monospace'>Here are my skills.</h4>
-      <Paper elevation={5} className='w-full h-full pt-5 p-5 flex justify-around'>
+      <Paper elevation={5} className='w-full h-full pt-5 p-5 flex justify-center items-center'>
         <Grid container spacing={2}>
           {/* First Grid item */}
           <Grid item xs={12} md={6} className="h-auto pl-3 flex flex-col align-center justify-center">
@@ -27,7 +27,7 @@ function SkillsSection() {
           </Grid>
 
           {/* Second Grid item */}
-          <Grid item xs={12} md={6} className="flex flex-wrap h-auto justify-around">
+          <Grid item xs={12} md={6} className="flex flex-wrap h-auto justify-around items-center">
             <SkillBox logo={<ApiIcon />} name={"Prisma"} />
             <SkillBox logo={<ApiIcon />} name={"Prisma"} />
             <SkillBox logo={<ApiIcon />} name={"Prisma"} />

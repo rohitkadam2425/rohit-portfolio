@@ -32,28 +32,28 @@ function Header() {
                 <section className='pt-6 pl-12'>
                     <Image className= 'h-10 w-20' src={Logo} alt='Logo'></Image>
                 </section>
-                <section className='pt-6 pl-12 w-1/2 flex justify-evenly'>
+                {/* <section className='pt-6 pl-12 w-1/2 flex justify-evenly'>
                     {navItems.map((item) => (
                         <Button className='text-black font-semibold' key={item.id}>{item.name}</Button>
                     ))}
                     <Button className='text-black font-semibold'>Contact</Button>
-                </section>
+                </section> */}
             </div>
 
             <Grid container spacing={5} style={{ padding: 16 }} className='mt-20'>
                 <Grid item xs={12} sm={6} md={6} lg={6} className='h-80'>
                     <div className='mt-5'>
-                        <h1 className='text-black text-4xl font-bold font-cursive'>Hello, I'm Full Stack Developer</h1>
+                        <h1 className='text-black text-4xl font-bold font-cursive'>Hello, I'm Rohit <br/> Full Stack Developer</h1>
                         <h1 className='text-2xl font-semibold text-amber-300 font-cursive mt-4'>
                             {textArray[currentIndex]}
                         </h1>
                         <h5 className='text-xs mt-2'>Lorem ipsum dolor sit amet,</h5>
                     </div>
                     <div className="flex">
-                        <Button className="bg-black text-white hover:bg-gray-800 mt-5 mb-5 w-32">
+                        {/* <Button className="bg-black text-white hover:bg-gray-800 mt-5 mb-5 w-32">
                             Hire Me
-                        </Button> 
-                        <Button className="bg-white text-black border border-black ml-4 hover:bg-gray-100 m-5 w-32">
+                        </Button>  */}
+                        <Button className="bg-black text-white hover:bg-gray-800 mt-5 mb-5 w-32">
                             Resume <ArrowCircleDownIcon  style={{marginLeft :'2px'}}/>
                         </Button>
                     </div>

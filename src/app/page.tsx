@@ -7,12 +7,12 @@ import About from '@/app/components/About/About'
 
 export default function Home() {
   return (
-    <div>
-     <Header/>
-     <SkillsSection/>
-     <Work/>
-     <Experience/>
-     <About/>
+    <div style={{width:'100%' }}>
+      <Header />
+      <SkillsSection />
+      <Work />
+      <Experience />
+      <About />
     </div>
   );
 }
