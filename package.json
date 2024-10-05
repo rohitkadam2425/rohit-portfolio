@@ -16,7 +16,7 @@
     "@mui/styled-engine-sc": "^6.0.2",
     "aos": "^2.3.4",
     "framer-motion": "^11.11.1",
-    "next": "14.2.8",
+    "next": "^14.2.14",
     "react": "^18",
     "react-animate-on-scroll": "^2.1.9",
     "react-dom": "^18",
