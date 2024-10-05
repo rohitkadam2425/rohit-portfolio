@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import styles from './skills.module.css'
 import Progressbar from "@/app/chip/progressBar/progressBar"
 import SkillBox from "@/app/chip/skillBox/skillBox"
 import HtmlIcon from '@mui/icons-material/Html';

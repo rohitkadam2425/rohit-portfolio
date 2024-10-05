@@ -1,5 +1,4 @@
 import React from 'react'
-import { Grid } from '@mui/material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';

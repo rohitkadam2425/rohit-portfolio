@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect } from 'react'
-import { Grid, Paper } from '@mui/material';
 import ExperienceCard from '@/app/chip/experienceCard/ExperienceCard'
 import Aos from 'aos'
 import 'aos/dist/aos.css'

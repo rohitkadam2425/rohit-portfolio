@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import { Button, Box, Grid, Paper } from '@mui/material'; // Import the Grid component from MUI
+import { Button, Grid } from '@mui/material'; // Import the Grid component from MUI
 import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -10,11 +10,11 @@ import Logo from  '../../../../public/images/RK_logo.jpg'
 import Image from 'next/image';
 
 function Header() {
-    const navItems = [
-        { id: 1, name: "Home", link: '' },
-        { id: 2, name: "About", link: '' },
-        { id: 3, name: "Projects", link: '' }
-    ];
+    // const navItems = [
+    //     { id: 1, name: "Home", link: '' },
+    //     { id: 2, name: "About", link: '' },
+    //     { id: 3, name: "Projects", link: '' }
+    // ];
     const textArray = ['Developer', 'Problem Solver', 'Creative Thinker', 'Team Player'];
     const [currentIndex, setCurrentIndex] = useState(0);
   
