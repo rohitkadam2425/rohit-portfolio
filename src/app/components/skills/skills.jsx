@@ -5,11 +5,9 @@ import SkillBox from "@/app/chip/skillBox/skillBox"
 import HtmlIcon from '@mui/icons-material/Html';
 import { Grid, Paper } from '@mui/material';
 import ApiIcon from '@mui/icons-material/Api';
-import Zoom from "react-reveal/Zoom";
 
 function SkillsSection() {
   return (
-    <Zoom>
     <div className='mt-5 ml-5 mr-5'>
       <h2 className='text-3xl font-black font-cursive text-gray-300 mb-4'>My Skills</h2>
       <hr></hr>
@@ -36,7 +34,6 @@ function SkillsSection() {
       </Paper>
 
     </div>
-     </Zoom>
   )
 }
 
