@@ -16,7 +16,7 @@ function Experience() {
         <div id="resume" className=" container m-auto pl-3  mt-16">
             {/* heading */}
             <div data-aos="fade-up" className="relative mb-5">
-                <h3 className=" text-3xl font-black text-gray-400 sm:text-xl font-cursive mb-4">
+                <h3 className=" text-3xl font-black text-gray-400 sm:text-xl font-monopolysive mb-4">
                     Experience
                 </h3>
                 <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>

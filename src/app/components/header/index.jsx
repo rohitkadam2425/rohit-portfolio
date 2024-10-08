@@ -43,8 +43,8 @@ function Header() {
             <Grid container spacing={5} style={{ padding: 16 }} className='mt-20'>
                 <Grid item xs={12} sm={6} md={6} lg={6} className='h-80'>
                     <div className='mt-5'>
-                        <h1 className='text-black text-4xl font-bold font-cursive'>Hello, I&apos;m Rohit <br/> Full Stack Developer</h1>
-                        <h1 className='text-2xl font-semibold text-amber-300 font-cursive mt-4'>
+                        <h1 className='text-black text-4xl font-bold font-monopoly'>Hello, I&apos;m Rohit <br/> Full Stack Developer</h1>
+                        <h1 className='text-2xl font-semibold text-amber-300 font-monopoly mt-4'>
                             {textArray[currentIndex]}
                         </h1>
                         <h5 className='text-xs mt-2'>Lorem ipsum dolor sit amet,</h5>

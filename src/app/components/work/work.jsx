@@ -9,7 +9,7 @@ function  Work() {
   return (
   
     <div className='h-[auto] mt-5 ml-5 mr-5 mt-10'>
-       <h2 className='text-3xl font-black font-cursive text-gray-300 mb-4'>Works</h2>
+       <h2 className='text-3xl font-black font-monopolysive text-gray-300 mb-4'>Works</h2>
       <hr></hr>
       <h4 className='mb-4 font-monospace'>Projects I have Worked On</h4>
       <Grid container className='flex justify-around'>

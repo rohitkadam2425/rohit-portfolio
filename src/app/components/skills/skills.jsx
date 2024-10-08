@@ -9,7 +9,7 @@ import ApiIcon from '@mui/icons-material/Api';
 function SkillsSection() {
   return (
     <div className='mt-5 ml-5 mr-5'>
-      <h2 className='text-3xl font-black font-cursive text-gray-300 mb-4'>My Skills</h2>
+      <h2 className='text-3xl font-black font-monopolysive text-gray-300 mb-4'>My Skills</h2>
       <hr></hr>
       <h4 className='mb-4 font-monospace'>Here are my skills.</h4>
       <Paper elevation={5} className='w-full h-full pt-5 p-5 flex justify-center items-center'>
