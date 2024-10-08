@@ -12,11 +12,19 @@ function SkillsSection() {
       <h2 className='text-3xl font-black font-monopolysive text-gray-300 mb-4'>My Skills</h2>
       <hr></hr>
       <h4 className='mb-4 font-monospace'>Here are my skills.</h4>
-      <Paper elevation={5} className='w-full h-full pt-5 p-5 flex justify-center items-center'>
+      <Paper elevation={5} style={{
+        height: 'auto',
+        paddingLeft: '12px',  // 'pl-3' corresponds to padding-left: 12px in Tailwind
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',  // 'align-center' aligns items to the center
+        justifyContent: 'center',
+        paddingTop:'10px'
+      }}>
         <Grid container spacing={2}>
           {/* First Grid item */}
-          <Grid item xs={12} md={6} className="h-auto pl-3 flex flex-col align-center justify-center">
-            
+          <Grid item xs={12} md={6}>
+
             <Progressbar value={90} name={"React"} />
             <Progressbar value={80} logo={<HtmlIcon fontSize="large" />} name={"HTML"} />
             <Progressbar value={70} name={"Next JS"} />

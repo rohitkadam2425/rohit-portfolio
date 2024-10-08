@@ -40,7 +40,7 @@ function Header() {
                 </section> */}
             </div>
 
-            <Grid container spacing={5} style={{ padding: 16 }} className='mt-20'>
+            <Grid container spacing={5} className='p-10 pt-20'>
                 <Grid item xs={12} sm={6} md={6} lg={6} className='h-80'>
                     <div className='mt-5'>
                         <h1 className='text-black text-4xl font-bold font-monopoly'>Hello, I&apos;m Rohit <br/> Full Stack Developer</h1>
@@ -53,7 +53,7 @@ function Header() {
                         {/* <Button className="bg-black text-white hover:bg-gray-800 mt-5 mb-5 w-32">
                             Hire Me
                         </Button>  */}
-                        <Button className="bg-black text-white hover:bg-gray-800 mt-5 mb-5 w-32">
+                        <Button style={{backgroundColor:'black' ,marginTop:'20px', marginBottom:'17px' ,color:'white' ,padding:'8px'}}>
                             Resume <ArrowCircleDownIcon  style={{marginLeft :'2px'}}/>
                         </Button>
                     </div>
